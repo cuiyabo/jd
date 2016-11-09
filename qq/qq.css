@@ -1,0 +1,123 @@
+#footerRight{
+	position: fixed;
+	_position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 2000;
+	width: 0;
+	height: 100%;
+}
+
+
+#footerRight .Lan{
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 0;
+	height: 100%;
+	border-right: 6px solid #7a6e6e;
+}
+
+.backTop{
+	width: 35px;
+	height: 216px;
+	position: absolute;
+	top: 50%;
+	right: -6px;
+	margin-top: -61px;
+	z-index: 5555;
+}
+
+.backTop .topImg{
+	width: 100%;
+	height: 35px;
+	position: relative;
+	background-color: #7a6e6e;
+	margin-bottom: 1px;
+	border-radius: 3%;
+	overflow: hidden;
+	
+}
+
+
+.back{
+	width: 35px;
+	height: 72px;
+	position: absolute;
+	bottom: -1px;
+	right: -6px;
+	z-index: 5555;
+}
+.back .backDing{
+	width: 100%;
+	height: 35px;
+	position: relative;
+	background-color: #7a6e6e;
+	margin-bottom: 1px;
+	border-radius: 0%;
+	overflow: hidden;
+	
+}
+
+#footerRight .Lan em{
+	display: block;
+	width: 0px;
+	float: left;
+	height: 35px;
+	position: absolute;
+	top: 0;
+	right: 35px;
+	text-align: center;
+	line-height: 35px;
+	font-size: 14px;
+	font-style: normal;
+	color: #fff;
+	background:#B1191A;
+	border-radius: 5px 0 0 5px;
+	font-size: 14px;
+	overflow: hidden;
+}
+
+
+.back .backDing i{
+	display: block;
+	width: 34px;
+	height: 35px;
+	background-image: url(footer/toolbars.png);
+	background-position: -50px -250px;
+	
+	margin-left: 1px;
+	z-index: 2;
+}
+
+.back .backDing .y{
+	background-position: -50px -300px;
+}
+
+.Lan .backTop i{
+	display: block;
+	width: 34px;
+	height: 35px;
+	background-image: url(footer/toolbars.png);
+	background-position: -88px -175px;
+	
+	margin-left: 1px;
+	z-index: 2;
+}
+
+.Lan .backTop .e{
+	background-position: -50px 0;
+}
+.Lan .backTop .s{
+	background-position: -50px 50px;
+}
+.Lan .backTop .i{
+	background-position: -50px -100px;
+}
+.Lan .backTop .w{
+	background-position: -190px -150px;
+}
+.Lan .backTop .l{
+	background-position: -50px -150px;
+}
+
